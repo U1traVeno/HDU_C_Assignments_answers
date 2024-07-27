@@ -1,7 +1,12 @@
 # 计算机科学讲义C语言任务模块
 
-这是一个HDU C语言任务的作业代码  
+这是一个[HDU C语言任务](https://github.com/E1PsyCongroo/HDU_C_Assignments)的作业代码和笔记.    
 自己感觉写的有点烂就是说. 感觉很多地方不够严谨但自己找不出来，
 以及运行的时候不断地出现各种bug，在chatGPT和自己不断地摸索下才能折腾出来.
-[github项目地址](https://github.com/Happ1less/HDUtask)  
-在每个题目的README里面可能会记一下自己碰到的问题或者随笔之类的东西。
+[本项目地址](https://github.com/Happ1less/HDU_C_Assignments_answers)  
+在每个题目的README里面可能会记一下自己碰到的问题或者随笔之类的东西。  
+
+**请各位想学习HDU C语言任务的同学不要直接看我的答案!!!**  
+首先,我的代码不一定写的多好,我也是初学者  
+其次,只有你自己写一遍代码才会真正学到东西.每个人的疑难困惑都是不一样的.  
+自己写代码可能痛苦,但这些痛苦的过程正是学习的过程.
