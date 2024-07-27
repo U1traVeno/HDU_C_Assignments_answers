@@ -11,6 +11,21 @@ int main(void)
   /*
     your codes here
   */
+  ch = getchar();
+  while(ch != '#'){
+    if (ch == ' '){
+      sum_space++;
+    }
+    else if(ch == '\n'){
+      sum_enter++;
+    }
+    else{
+      sum_other++;
+    }
+    ch = getchar();
+  }
+  
   printf("space = %d,enter = %d,other = %d\n", sum_space, sum_enter, sum_other);
+  getchar();
   return EXIT_SUCCESS;
 }
