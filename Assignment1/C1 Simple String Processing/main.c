@@ -11,8 +11,8 @@ int main(void)
   /*
     your codes here
   */
-  ch = getchar();
-  while(ch != '#'){
+  ch = getchar(); //第一次写忘记这里，导致sum_other多一个最开始初始化的ch == 0
+  while(ch != '#' && sum_other < 2147483646){
     if (ch == ' '){
       sum_space++;
     }
@@ -26,6 +26,5 @@ int main(void)
   }
   
   printf("space = %d,enter = %d,other = %d\n", sum_space, sum_enter, sum_other);
-  getchar();
   return EXIT_SUCCESS;
 }
