@@ -51,23 +51,23 @@ void squares(int size1, int x_offset, int y_offset, int size2) {
       // if so, print a #
 
       // else print a space
-      if ((x >= x_offset && x <= x_offset + size2) &&
-          (y == y_offset || y == y_offset + size2 - 1) ||
+      if (((x >= x_offset && x <= x_offset + size2) &&
+           (y == y_offset || y == y_offset + size2 - 1)) ||
           
-          (y >= y_offset && y <= y_offset + size2) &&
-          (x == x_offset || x == x_offset + size2 - 1)) {
-        printf('*');
+          ((y >= y_offset && y <= y_offset + size2) &&
+           (x == x_offset || x == x_offset + size2 - 1))) {
+        printf("*");
       } else if (
         (x < size1 && (y == 0 || y == size1 - 1)) ||
         (y < size1 && (x == 0 || x == size1 - 1))) {
-        printf('#');
+        printf("#");
       } else {
-        print(' ');
+        printf(" ");
       }
       
     }
     // when you finish counting x from 0 to w,
     // print a newline
-    printf('\n');
+    printf("\n");
   }
 }
